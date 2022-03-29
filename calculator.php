@@ -7,7 +7,7 @@ $calcular = 'somar' ;
 
 If (isset($_GET['nro1'], $_GET['nro2'], $_GET['calcular"])) {
 
-$nro1 = $ GET['nro1'];
+$nro1 = $_GET['nro1'];
 $nro2 = $_GET['nro2'];
 $calcular = $_GET[ 'calcular'];
 
